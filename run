@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "which program do you want to run?"
+read prog
+
+args="--server.headless true --server.runOnSave true --logger.level debug"
+streamlit run $prog.py $args
+
+# streamlit run demo.py --server.address 0.0.0.0
+# streamlit run demo.py

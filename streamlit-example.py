@@ -1,3 +1,7 @@
+"""
+https://towardsdatascience.com/build-your-own-chatgpt-like-app-with-streamlit-20d940417389
+"""
+
 import openai
 import streamlit as st
 from streamlit_chat import message
@@ -8,7 +12,7 @@ st.markdown("<h1 style='text-align: center;'>AVA - a totally harmless chatbot ðŸ
 
 # Set org ID and API key
 openai.organization = "<YOUR_OPENAI_ORG_ID>"
-openai.api_key = "<YOUR_OPENAI_API_KEY>"
+openai.api_key = "<KEY_HERE>"
 
 # Initialise session state variables
 if 'generated' not in st.session_state:
