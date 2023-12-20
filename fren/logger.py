@@ -26,7 +26,7 @@ class ColoredFormatter(logging.Formatter):
 
 def setup_logging():
     debug = os.getenv("DEBUG", False)
-    debug = True #TODO
+    # debug = True #TODO
     if debug:
         # log_format = "%(asctime)s %(levelname)s | (%(filename)s @ %(lineno)d) >> %(message)s"
         # log_format = "%(levelname)s | %(asctime)s | (%(filename)s @ %(lineno)d) | %(message)s"

@@ -1,5 +1,6 @@
 """
 https://towardsdatascience.com/build-your-own-chatgpt-like-app-with-streamlit-20d940417389
+https://github.com/dataprofessor/realtime-transcription/blob/main/streamlit_app.py
 """
 
 import openai
